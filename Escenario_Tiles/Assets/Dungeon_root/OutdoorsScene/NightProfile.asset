@@ -144,13 +144,13 @@ MonoBehaviour:
     m_Value: -2
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 200
+    m_Value: 50
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
-    m_OverrideState: 0
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.5999911, g: 0.673802, b: 0.9150943, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 0
     m_Value: 1
@@ -202,13 +202,13 @@ MonoBehaviour:
     m_Value: 0
   skyIntensityMode:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 2
   exposure:
     m_OverrideState: 0
     m_Value: 0
   multiplier:
-    m_OverrideState: 0
-    m_Value: 1
+    m_OverrideState: 1
+    m_Value: 1042.09
   upperHemisphereLuxValue:
     m_OverrideState: 1
     m_Value: 0.09483876
@@ -320,10 +320,10 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.69913965, y: 0.7290549, z: 1, w: 0}
+    m_Value: {x: 0.8420746, y: 0.866795, z: 1, w: 0}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 0.71608245, y: 0.78706163, z: 1, w: 0}
+    m_Value: {x: 0.84318805, y: 0.87631416, z: 1, w: 0}
   highlights:
     m_OverrideState: 1
     m_Value: {x: 0.9040052, y: 0.9243391, z: 1, w: 0}
@@ -351,7 +351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b8bcdf71d7fafa419fca1ed162f5fc9, type: 3}
   m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   postExposure:
     m_OverrideState: 1
     m_Value: 0.14
